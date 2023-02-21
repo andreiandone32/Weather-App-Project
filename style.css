@@ -1,0 +1,54 @@
+:root{
+    --primary:#26c485;
+    --secondary:#fbb44c;
+    --bg-primary:#078a98;
+    --bg-secondary:#dcd5d5;
+    --btn-color:#0b7a4e;
+}
+
+.btn-secondary{
+    background-color: var(--btn-color);
+    border-color: var(--btn-color);
+}
+
+
+
+
+.bg-dark{
+    background-color: var(--primary) !important;
+}
+
+.btn.show,
+.btn-secondary,
+.btn-secondary:focus{
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.text-primary{
+    color: var(--primary) !important;
+}
+
+.bg-primary{
+    background-color: var(--bg-primary) !important;
+}
+h1,h2{
+    font-weight: bold;
+}
+
+body{
+    display: flex;
+    flex-direction:column ;
+
+    min-height: 100vh;
+}
+
+main{
+    /* height: 100vh; */
+    flex: 1;
+}
+
+header{
+    height: 28vh;
+}
+ 
